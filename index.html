@@ -1,102 +1,142 @@
-<!doctype html>
+<!doctype html> <!-- basicSemantic3.html -->
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>20161397 김범희</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<style>	#name{text-align: right;}</style>
+  <meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>시멘틱 학습</title>
+	<style>
+		header, nav,section, article, aside, footer{
+			border:1px solid gray; margin:5px; padding:8px; width:1000px;
+		}
+   		header img{width: 990px; height: 200px;}
+		section{width:750px;float:left;}
+		section aside{width:347px;float:left; height : 97%;border:0px solid gray;}
+		section section{width:725px;float:left;}
+		aside{width:221px;float:left;line-height:30px;height:100%;}
+		footer{height:50px; clear:both;}
+		nav ul{margin:0;padding:0;}
+		nav ul li{display:inline; margin:5px;}
+
+		aside ul{margin:0; padding:0;}
+		aside ul li{display:block; margin:5px;}	
+		aside ul li img{width: 60px; height: 60px}
+		a:link {color: blue; background-color: transparent; text-decoration: none;}
+		a:visited {color: pink; background-color: transparent; text-decoration: none;}
+		a:hover {color: red; background-color: transparent; text-decoration: underline;}
+		a:active {color: blue; background-color: transparent; text-decoration: none;}
+	</style>
 </head>
 <body>
 	<header>
-		<h2>인터넷 프로그래밍</h2>		
-		<h4 id="name">20161397 김범희</h4>
+		<img src="../IMG_BACKGROUND.PNG" alt="바람의언덕"/>
 	</header>
-	<hr/>
-	<h4>과제</h4> 
-	<ul style="list-style-type:square">
-  		<li>1주차</li>
-		<ol type ="1">
-    			<li><a href="https://nakaldi.github.io/koreanAnthemItalic.html" target="_blank">koreanAnthemItalic.html</a></li>
-   		 	<li><a href="https://nakaldi.github.io/koreaAnthem3.html" target="_blank">koreaAnthem3.html</a></li>
-		</ol>
-		<li>2주차</li>
-		<ol type ="1">
-   			<li><a href="https://nakaldi.github.io/basicDList.html" target="_blank">basicDList.html</a></li>
-    			<li><a href="https://nakaldi.github.io/koreaAnthem4.html" target="_blank">koreaAnthem4.html</a></li>
-    			<li><a href="https://nakaldi.github.io/koreaAnthem5.html" target="_blank">koreaAnthem5.html</a></li>
-		</ol>
-		<li>3주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/timeTable.html" target="_blank">timeTable.html</a></li>
-        	</ol>
-		<li>4주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/basicSemantic2.html" target="_blank">basicSemantic2.html</a></li>
-        	</ol>
-		<li>5주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/imageMapDJU.html" target="_blank">imageMapDJU.html</a></li>
-			<li><a href="https://nakaldi.github.io/basicSemantic3/basicSemantic3.html" target="_blank">basicSemantic3.html</a></li>
-        	</ol>
-		<li>6주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/reservation1.html" target="_blank">reservation1.html</a></li>
-        	</ol>
-	</ul>
-	<hr/>
-	<h4>실습</h4>  
-       	<ul style ="list-style-type:square"> 
-  		<li>1주차</li>
-		<ol type ="1">
-	  		<li><a href="https://nakaldi.github.io/index0.html" target="_blank">index0.html</a></li>
- 	  		<li><a href="https://nakaldi.github.io/headBasic.html" target="_blank">headBasic.html</a></li></ol> 
-		<li>2주차</li>
-		<ol type ="1">
-	 		<li><a href="https://nakaldi.github.io/basicPBrHr.html" target="_blank">basicPBrHr.html</a></li>
-  	  		<li><a href="https://nakaldi.github.io/basicChar.html" target="_blank">basicChar.html</a></li></ol>
-       		<li>3주차</li>
-		<ol type ="1">
-  	  		<li><a href="https://nakaldi.github.io/basicTable.html" target="_blank">basicTable.html</a></li>
-	  		<li><a href="https://nakaldi.github.io/basicTable2.html" target="_blank">baiscTable2.html</a></li>
-			<li><a href="https://nakaldi.github.io/tableSpan.html" target="_blank">tableSpan.html</a></li>
-		</ol>
-		<li>4주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/advDiv.html" target="_blank">advDiv.html</a></li>
-			<li><a href="https://nakaldi.github.io/basicSemantic.html" target="_blank">basicSemantic.html</a></li>
-			<li><a href="https://nakaldi.github.io/anchor1.html" target="_blank">anchor1.html</a></li>
-			<li><a href="https://nakaldi.github.io/advAnchor.html" target="_blank">advAnchor.html</a></li>
-			<li><a href="https://nakaldi.github.io/basicImage.html" target="_blank">basicImage.html</a></li>
-		</ol>
-		<li>5주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/imageMap.html" target="_blank">imageMap.html</a></li>
-			<li><a href="https://nakaldi.github.io/basicAudio.html" target="_blank">basicAudio.html</a></li>
-			<li><a href="https://nakaldi.github.io/basicVideo.html" target="_blank">basicVideo.html</a></li>
-		</ol>
-		<li>6주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/formText1.html" target="_blank">formText1.html</a></li>
-			<li><a href="https://nakaldi.github.io/formRadio1.html" target="_blank">formRadio1.html</a></li>
-			<li><a href="https://nakaldi.github.io/formCheckbox1.html" target="_blank">formCheckbox1.html</a></li>
-			<li><a href="https://nakaldi.github.io/formFormaction1.html" target="_blank">formFormaction1.html</a></li>
-			<li><a href="https://nakaldi.github.io/formSelect1.html" target="_blank">formSelect1.html</a></li>
-			<li><a href="https://nakaldi.github.io/formMSelect1.html" target="_blank">formMSelect1.html</a></li>
-			<li><a href="https://nakaldi.github.io/formTextarea1.html" target="_blank">formTextarea1.html</a></li>
-		</ol>
-		<li>7주차</li>
-		<ol type ="1">
-			<li><a href="https://nakaldi.github.io/cssTest.html" target="_blank">cssTest.html</a></li>
-			<li><a href="https://nakaldi.github.io/inline1.html" target="_blank">inline1.html</a></li>
-			<li><a href="https://nakaldi.github.io/outstyle1.html" target="_blank">outstyle1.html</a></li>
-			<li><a href="https://nakaldi.github.io/embed1.html" target="_blank">embed1.html</a></li>
-			<li><a href="https://nakaldi.github.io/htmlDom.html" target="_blank">htmlDom.html</a></li>
-			<li><a href="https://nakaldi.github.io/member1.html" target="_blank">member1.html</a></li>
+	<nav>
+		<ul>
+			<li><a href="http://www.naver.com" alt="네이버" target="_blank">네이버(새윈도우)</a></li>
+			<li><a href="../anchor2.html">사이트내문서이동</a></li>
+			<li><a href="#chapter1">제1장이동(북마크이동)</a></li>
+		</ul>
+	</nav>
 
-		</ol>
-	</ul>
-	<hr/>
+	<section>
+		<aside>
+            <h3>과제</h3>
+            <ul style="list-style-type:square">
+                <li>1주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/koreanAnthemItalic.html" target="_blank">koreanAnthemItalic.html</a></li>
+                    <li><a href="https://nakaldi.github.io/koreaAnthem3.html" target="_blank">koreaAnthem3.html</a></li>
+                </ol>
+                <li>2주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/basicDList.html" target="_blank">basicDList.html</a></li>
+                    <li><a href="https://nakaldi.github.io/koreaAnthem4.html" target="_blank">koreaAnthem4.html</a></li>
+                    <li><a href="https://nakaldi.github.io/koreaAnthem5.html" target="_blank">koreaAnthem5.html</a></li>
+                </ol>
+                <li>3주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/timeTable.html" target="_blank">timeTable.html</a></li>
+                </ol>
+                <li>4주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/basicSemantic2.html" target="_blank">basicSemantic2.html</a></li>
+                </ol>
+                <li>5주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/imageMapDJU.html" target="_blank">imageMapDJU.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicSemantic3/basicSemantic3.html" target="_blank">basicSemantic3.html</a></li>
+                </ol>
+                <li>6주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/reservation1.html" target="_blank">reservation1.html</a></li>
+                </ol>
+            </ul>
+		</aside>
+		<aside>
+            <h3>실습</h3>
+            <ul style="list-style-type:square">
+                <li>1주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/index0.html" target="_blank">index0.html</a></li>
+                    <li><a href="https://nakaldi.github.io/headBasic.html" target="_blank">headBasic.html</a></li>
+                </ol>
+                <li>2주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/basicPBrHr.html" target="_blank">basicPBrHr.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicChar.html" target="_blank">basicChar.html</a></li>
+                </ol>
+                <li>3주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/basicTable.html" target="_blank">basicTable.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicTable2.html" target="_blank">baiscTable2.html</a></li>
+                    <li><a href="https://nakaldi.github.io/tableSpan.html" target="_blank">tableSpan.html</a></li>
+                </ol>
+                <li>4주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/advDiv.html" target="_blank">advDiv.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicSemantic.html" target="_blank">basicSemantic.html</a></li>
+                    <li><a href="https://nakaldi.github.io/anchor1.html" target="_blank">anchor1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/advAnchor.html" target="_blank">advAnchor.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicImage.html" target="_blank">basicImage.html</a></li>
+                </ol>
+                <li>5주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/imageMap.html" target="_blank">imageMap.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicAudio.html" target="_blank">basicAudio.html</a></li>
+                    <li><a href="https://nakaldi.github.io/basicVideo.html" target="_blank">basicVideo.html</a></li>
+                </ol>
+                <li>6주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/formText1.html" target="_blank">formText1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/formRadio1.html" target="_blank">formRadio1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/formCheckbox1.html" target="_blank">formCheckbox1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/formFormaction1.html" target="_blank">formFormaction1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/formSelect1.html" target="_blank">formSelect1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/formMSelect1.html" target="_blank">formMSelect1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/formTextarea1.html" target="_blank">formTextarea1.html</a></li>
+                </ol>
+                <li>7주차</li>
+                <ol type="1">
+                    <li><a href="https://nakaldi.github.io/cssTest.html" target="_blank">cssTest.html</a></li>
+                    <li><a href="https://nakaldi.github.io/inline1.html" target="_blank">inline1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/outstyle1.html" target="_blank">outstyle1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/embed1.html" target="_blank">embed1.html</a></li>
+                    <li><a href="https://nakaldi.github.io/htmlDom.html" target="_blank">htmlDom.html</a></li>
+                    <li><a href="https://nakaldi.github.io/member1.html" target="_blank">member1.html</a></li>
+
+                </ol>
+            </ul>
+		</aside>
+	</section>
+	<aside>
+		<ul>
+			<li><a href="http://www.google.com"><img src="../IMG_GOOGLE.png" alt="Google"/></a></li>
+			<li><a href="http://www.facebook.com"><img src="../IMG_FACEBOOK.png" alt="Facebook"/></a></li>
+			<li><a href="http://www.twitter.com"><img src="../IMG_TWITTER.png" alt="Twitter"/></a></li>
+		</ul>
+	</aside>
+	<footer>
+		<p>&copy;20XX Made by Korea. All rights reserved.</p>
+	</footer>
 </body>
-</html> 
-
+</html>
