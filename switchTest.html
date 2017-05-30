@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html><!--switchTest.html-->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    
+    <link rel="stylesheet" href="css/sample.css" />
+    <script src="js/sample.js"></script>
+    <title>웹 프로그래밍 실습</title>
+</head>
+<body><header><h2>실습 대환영</h2></header>
+<nav><ul><li><a href="http://hive.dju.ac.kr">실습서버</a></li></ul></nav>
+<section><h4>switch 예제 실습</h4>
+    <script>
+var gradeLevel=window.prompt("학년입력:");
+var eGradeLevel=undefined;
+switch(gradeLevel){
+case"1":eGradeLevel="freshman";break;
+case"2":eGradeLevel="sophomore";break;
+case"3":eGradeLevel="junior";break;
+case"4":eGradeLevel="senior";break;
+default: eGradeLevel="not a student";
+}
+
+document.write("영어로학년=", eGradeLevel, "<br/>");
+</script></section>
+</body>
+</html>
