@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/sample.css" />
     <script src="js/sample.js"></script>
 <script>
-function fnGetElementsById(){
+function fnGetElementById(){
 var accessTag = document.getElementById("input_id1");
 console.log(accessTag.tagName);
 accessTag.setAttribute("value","getElementById실행!");
@@ -24,7 +24,7 @@ accessTag.setAttribute("value","getElementById실행!");
 <input id="button_id1" type="button" name="user_id"value="입력"/>
 빈칸에 검색어를 넣고 입력해 주세요.
 </form>
-<form><input type="button" onclick="fnGetElementById();" value="변경실행"/></form>
+<form><input type="button" onclick="fnGetElementById()" value="변경실행"/></form>
 </section>
 </body>
 </html>
