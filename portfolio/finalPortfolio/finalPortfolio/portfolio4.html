@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<!-- portfolio3.html-->
+<!-- @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);-->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+            @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+                body{
+        font-family: 'Nanum Gothic';
+    }
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+
+        .menu ul, .banner ul {
+            list-style-type: none;
+        }
+
+        .menu li {
+            background-color: pink;
+            color: black;
+            padding: 0px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px gray;
+        }
+
+            .menu li:hover {
+                background-color: red;
+            }
+
+        .banner li {
+            border: 2px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px gray;
+        }
+
+            .banner li img {
+                width: 30%;
+                vertical-align: middle;
+            }
+
+        .main {
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 0px) { /* mobile */
+            .col-m-0 {
+                width: 0%;
+            }
+
+            .col-m-1 {
+                width: 8.33%;
+            }
+
+            .col-m-2 {
+                width: 16.66%;
+            }
+
+            .col-m-3 {
+                width: 25%;
+            }
+
+            .col-m-4 {
+                width: 33.33%;
+            }
+
+            .col-m-5 {
+                width: 41.66%;
+            }
+
+            .col-m-6 {
+                width: 50%;
+            }
+
+            .col-m-7 {
+                width: 58.33%;
+            }
+
+            .col-m-8 {
+                width: 66.66%;
+            }
+
+            .col-m-9 {
+                width: 75%;
+            }
+
+            .col-m-10 {
+                width: 83.33%;
+            }
+
+            .col-m-11 {
+                width: 91.66%;
+            }
+
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 1000px) { /* desktop */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+
+        .header {
+            margin: 0px;
+            border: 0px;
+        }
+
+        footer {
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Nanum Gothic';
+        }
+
+
+        .divIndex {
+            width: 50%;
+            float: left;
+            text-align: center;
+            margin: 0 auto;
+            font-family: 'Nanum Gothic';
+        }
+
+        .div100Per {
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-family: 'Nanum Gothic';
+            margin: 0 auto;
+        }
+
+        a:link {
+            color: #C77966;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #C77966;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #EFE1C6;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #fdcc52;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .divAd1 {
+            width: 100%;
+            
+            float: left;
+            font-family: 'Nanum Gothic';
+            margin-top: 60px;
+            background: #41495f;
+        }
+        .divAdHead {
+            width: 33%;
+            
+            float: left;
+            text-align: right;
+            font-family: 'Nanum Gothic';
+            padding: 8px;
+        }
+        .divAdText {
+            width: 66%;
+            
+            float: left;
+            font-family: 'Nanum Gothic';
+            margin: 0 auto;
+            padding: 6px;
+		padding-left:12px
+        }
+    </style>
+
+    <title>포트폴리오</title>
+</head>
+<body style="background-color: #3f4355">
+    <header class="header">
+        <img src="IMG_Portfolio.png" margin="0" ;border="0" ; usemap="#IMG_Portfolio" id="home" width="100%">
+    </header>
+
+    <div class="col-12 col-m-12">
+        <div class="col-2 col-m-0">
+        </div>
+        <div class="col-8 col-m-11">
+
+
+            <div class="col-12 col-m-12 div100Per">
+                <br /><br /><br />
+                <img src="IMG_Adjustment.png" border="0" height="40">
+
+            </div>
+            <div class="col-12 col-m-12 div100Per">
+
+                <img src="IMG_Chart.png" border="0" width="110%">
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            예전부터 관심있었던 철학. 기대를 가지고 수강신청했지만 현실은 달랐다.
+                            '생각하는 법에 대해 알게되지 않을까'라는 기대와 달리 서양 철학의 역사를 배웠다.<br />
+                            그래도 관심있던 분야라 재밌게 배우고 성적도 잘 나왔다.<br />
+                            서양 철학의 기원부터 현대에 이르기까지 철학자와 그 이론을 배우고 탐구한다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>서양철학개론 <br/>| 교양필수</h2>
+                    </font>
+                </div>
+            </div>
+
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            컴퓨터공학과의 첫번째 전공과목<br />
+                            실습 시간엔 클라우드 개발 시스템인 AppInventor를 사용하여 모바일 어플리케이션을 제작했다.<br />
+                            이론 시간엔 공학에 대해 배우고, 팀 단위로 프로젝트를 설계하고 토론하는 방법을 배웠다.<br />
+                            개발이 즐거워서 많은 시간을 투자했고 블록형 코드를 직접 설계하며 프로그래밍의 기초를 다졌다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>공학설계 <br />| 전공필수</h2>
+                    </font>
+                </div>
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            교양선택 과목이지만 JAVA 언어를 배운다고 하여 수강신청 했다.<br />
+                            비전공자 수준으로 기초부터 JAVA 언어를 Ecilps로 학습했고, 기본적인 코딩과 GUI배치를 배웠다<br />
+                            후에 C언어를 배울 때 큰 도움이 되었다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>컴퓨터프로그래밍 <br />| 교양선택</h2>
+                    </font>
+                </div>
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            컴퓨터공학과의 필수 이수 교양 과목<br />
+                            이산수학을 공부했으며, 다이어그램, 논리연산, 2진수 연산, 트리와 그래프 구조에 대해 학습했다.<br />
+                            전공과목을 이수할 때 논리적인 그림을 상상하는 데에 많은 도움이 되었다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>수학1 <br />| 교양필수</h2>
+                    </font>
+                </div>
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            교양선택 과목이지만 C언어를 배우는 과목.
+                            자료형, 연산자, 조건문, 반복문, 함수, 포인터, 구조체 등 C언어를 VS2015로 포괄적으로 학습했고, Doxygen을 활용한 주석 정리 기술도 배웠다.
+                            JAVA 언어와 일정부분 겹치는 부분이 많아 어렵지 않게 배울 수 있었다.
+                            과제로 통신 중계기 알고리즘 문제를 냈는데, 많은 시간을 투자해 공부하며 즐겁게 학습할 수 있었다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>프로그래밍기초및실습 <br />| 교양선택</h2>
+                    </font>
+                </div>
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            논리적 사고와 비판적 사고에 대해 배우는 과목<br />
+                            글쓰기 기초가 선행과목이지만, 글쓰기랑은 다른 방향의 것들을 배웠다. 글쓰기가 논리적이고 좋은 글을 쓰는 능력을 길렀다면
+                            비판적사고 과목으로는 글을 보고 이성적이고 합리적인 사고를 통해 올바른 시야로 해석하는 능력을 길렀다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>비판적사고 <br />| 교양필수</h2>
+                    </font>
+                </div>
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            워낙 영어를 못했던 터라 영어 수업에 막연한 두려움이 있었는데, 친절하고 쉽게 지도하는 원어민 교수님을 만나 영어 회화를 즐겁게 할 수 있었다.<br />
+                            영어문제 풀기와 영어 말하기로 시험을 본 덕분에, 영어 문법과 어휘들을 익히고 영어로 의사소통할 수 있게 되었다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>대학영어 <br />| 교양필수</h2>
+                    </font>
+                </div>
+            </div>
+
+            <div class="divAd1">
+                <div class="divAdText">
+                    <font color="white" size="3">
+                        <p>
+                            HTML 웹 프로그래밍과 CSS에 대해 공부하고 있다.<br />
+                            실습 위주의 수업 덕분에 코딩능력이 향상되고 있고, 즐겁게 배우고 있다.<br />
+                            현재까지 과목들 중에 가장 흥미가 생기는 과목이고 웹 개발자의 길도 찾아보게 되었다.
+
+                        </p>
+                    </font>
+                </div>
+                <div class="divAdHead">
+                    <font color="#fdcc52">
+                        <h2>인터넷프로그래밍 <br />| 전공선택</h2>
+                    </font>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="col-12 col-m-12">
+        <font color="white">
+            <h3>CONTACT</h3>
+        </font>
+        <font color="gray">
+            <p>E-MAIL: nakaldi@gmail.com</p>
+            <p>&copy;2017 Made by Kim Beomhee. All rights reserved.</p>
+            <a href="portfolio1.html">TOP ></a>
+        </font>
+    </footer>
+</body>
+</html>
+
