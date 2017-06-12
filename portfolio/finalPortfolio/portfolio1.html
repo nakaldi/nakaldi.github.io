@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<!-- portfolio1.html-->
+<!-- @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);-->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <style>
+            * {  box-sizing:border-box; padding:0; margin:0; }
+    .row::after { content:""; clear:both; display:table; }
+    [class*="col-"] { float:left; padding:10px;}
+    .menu  ul, .banner ul { list-style-type:none; }
+    .menu  li { background-color:pink; color:black; padding:0px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+    .menu li:hover{background-color:red;}
+    .banner li {border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+    .banner li img {width:30%; vertical-align:middle;}
+    .main{text-align:center;}
+    
+    @media only screen and (min-width: 0px) {        /* mobile */
+    .col-m-0 {width: 0%;} .col-m-1 {width: 8.33%;}     .col-m-2 {width: 16.66%;}    .col-m-3 {width: 25%;}    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}    .col-m-6 {width: 50%;}    .col-m-7 {width: 58.33%;}    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}    .col-m-10 {width: 83.33%;}    .col-m-11 {width: 91.66%;}    .col-m-12 {width: 100%;} }
+    @media only screen and (min-width: 1000px) {        /* desktop */
+    .col-1{ width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;}
+    .col-5{width:41.66%;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;}
+    .col-9{width:75%;} .col-10{ width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}}
+  
+
+        .header{
+            margin: 0px;
+            border: 0px;
+        }
+
+        footer {
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Nanum Gothic';
+        }
+
+
+        .divIndex {
+            width: 50%;
+            float: left;
+            text-align: center;
+            margin: 0 auto;
+            font-family: 'Nanum Gothic';
+        }
+
+        .div100Per {
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-family: 'Nanum Gothic';
+            margin: 0 auto;
+        }
+
+        a:link {
+            color: #C77966;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #C77966;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #EFE1C6;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #fdcc52;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>포트폴리오</title>
+</head>
+<body style="background-color: #000000">
+    <header class="header">
+        <img src="IMG_Portfolio.png" margin="0" ;border="0" ; usemap="#IMG_Portfolio" id="home" width="100%">
+    </header>
+    <div class="col-12 col-m-12">
+    <div class="col-3 col-m-0"></div>
+    <div class="col-6 col-m-11">
+        <div class="div100Per">
+            <br /><br /><br />
+            <img src="IMG_Index.png" border="0" height=40>
+        </div>
+        <font color="gray">
+            <div class="divIndex">
+
+                <img src="IMG_index1.png" border="0" height="100"><br />
+                <font color="white">
+                    <h3>자기 소개</h3>
+                </font>
+                <p>나는 누구인가, 무엇을 위해</p>
+                <a href="portfolio2.html">자기 소개 확인하기 ></a>
+
+
+            </div>
+            <div class="divIndex">
+                <img src="IMG_index2.png" border="0" height="100"><br />
+                <font color="white">
+                    <h3>과목이수 현황</h3>
+                </font>
+                <p>지금까지 이수한 과목, 학점</p>
+                <a href="portfolio3.html">수강한 과목 알아보기 ></a>
+
+            </div>
+            <div class="divIndex">
+                <img src="IMG_index3.png" border="0" height="100"><br />
+                <font color="white">
+                    <h3>수강과목 정리</h3>
+                </font>
+                <p>2학년1학기까지 배운 것</p>
+                <a href="portfolio4.html">강의에서 배운내용 확인></a>
+
+            </div>
+            <div class="divIndex">
+                <img src="IMG_index4.png" border="0" height="100"><br />
+                <font color="white">
+                    <h3>TODO</h3>
+                </font>
+                <p>현재, 미래 계획은?</p>
+                <a href="portfolio5.html">하고 있는 것 알아보기   ></a>
+            </div>
+            <div class="divIndex">
+                <img src="IMG_index5.png" border="0" height="100"><br />
+                <font color="white">
+                    <h3>DOING</h3>
+                </font>
+                <p>진행중 프로젝트</p>
+                <a href="portfolio6.html">프로젝트 확인하기 ></a>
+            </div>
+            <div class="divIndex">
+                <img src="IMG_index6.png" border="0" height="100"><br />
+                <font color="white">
+                    <h3>과제 및 실습 INDEX</h3>
+                </font>
+                <p>현재까지 제출한 과제와 강의시간 실습 목록 정리</p>
+                <a href="https://nakaldi.github.io">Github index로 이동하기 ></a><br />
+            </div>
+        </font>
+    </div>
+        </div>
+
+    <footer class="col-12 col-m-12">
+        <font color="white">
+            <h3>CONTACT</h3>
+        </font>
+        <font color="gray">
+            <p>E-MAIL: nakaldi@gmail.com</p>
+            <p>&copy;2017 Made by Kim Beomhee. All rights reserved.</p>
+            <a href="portfolio1.html">TOP ></a>
+        </font>
+    </footer>
+</body>
+</html>

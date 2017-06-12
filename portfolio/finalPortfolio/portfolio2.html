@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<!-- portfolio2.html-->
+<!-- @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);-->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+
+        .menu ul, .banner ul {
+            list-style-type: none;
+        }
+
+        .menu li {
+            background-color: pink;
+            color: black;
+            padding: 0px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px gray;
+        }
+
+            .menu li:hover {
+                background-color: red;
+            }
+
+        .banner li {
+            border: 2px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px gray;
+        }
+
+            .banner li img {
+                width: 30%;
+                vertical-align: middle;
+            }
+
+        .main {
+            text-align: center;
+        }
+
+        @media only screen and (min-width: 0px) { /* mobile */
+            .col-m-0 {
+                width: 0%;
+            }
+
+            .col-m-1 {
+                width: 8.33%;
+            }
+
+            .col-m-2 {
+                width: 16.66%;
+            }
+
+            .col-m-3 {
+                width: 25%;
+            }
+
+            .col-m-4 {
+                width: 33.33%;
+            }
+
+            .col-m-5 {
+                width: 41.66%;
+            }
+
+            .col-m-6 {
+                width: 50%;
+            }
+
+            .col-m-7 {
+                width: 58.33%;
+            }
+
+            .col-m-8 {
+                width: 66.66%;
+            }
+
+            .col-m-9 {
+                width: 75%;
+            }
+
+            .col-m-10 {
+                width: 83.33%;
+            }
+
+            .col-m-11 {
+                width: 91.66%;
+            }
+
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 1000px) { /* desktop */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+
+        .header {
+            margin: 0px;
+            border: 0px;
+        }
+
+        footer {
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Nanum Gothic';
+        }
+
+
+        .divIndex {
+            width: 50%;
+            float: left;
+            text-align: center;
+            margin: 0 auto;
+            font-family: 'Nanum Gothic';
+        }
+
+        .div100Per {
+            width: 100%;
+            float: left;
+            text-align: center;
+            font-family: 'Nanum Gothic';
+            margin: 0 auto;
+        }
+
+        a:link {
+            color: #C77966;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #C77966;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #EFE1C6;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #fdcc52;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>포트폴리오</title>
+</head>
+<body style="background-color: #000000">
+    <header class="header">
+        <img src="IMG_Portfolio.png" margin="0" ;border="0" ; usemap="#IMG_Portfolio" id="home" width="100%">
+    </header>
+
+    <div class="col-12 col-m-12">
+        <div class="col-2 col-m-0">
+            </div>
+            <div class="col-8 col-m-11">
+                <div class="col-12 col-m-12 div100Per">
+                    <br /><br /><br />
+                    <img src="IMG_Introduce.png" border="0" height="30">
+                </div>
+                <div class="col-5 col-m-11">
+                    <font color="white">
+                        <h2>PROFILE</h2>
+                    </font>
+                    <font color="#cfcfcf" size="4">
+                        1992.11, 서울 출생<br />
+                        2011.02, 고등학교 졸업<br />
+                        2011~12, KOSAF 서비스센터 근무<br />
+                        2012~14, ROKA 28'DIV 근무<br />
+                        2014~15, KOSAF 서비스센터 복직<br />
+                        2015~16, SPAO, ELAND 근무<br />
+                        2016.03, 대전대학교 입학<br />
+                        2016.03~ 학년 과대표<br />
+                        2016.06~ C.N. LAB 연구원<br />
+                        2016.05~ DirtyCodes co. developer<br /><br />
+
+                        2002.07, WordProcessor | 대한상공회의소<br />
+                        2017.04, MOS P.P. expert | Microsoft
+                    </font>
+
+                </div>
+                <div class="col-1 col-m-1"></div>
+                <div class="col-5 col-m-12">
+                    <font color="white">
+                        <h3>꿈, How?</h3>
+                    </font>
+                    <font color="#cfcfcf" size="3">
+                        저는 고등학교를 졸업하고 대학교에 진학하지 않았습니다. 대학 진학률이 70%에 육박하는 이 시대이지만 자신 있었습니다. 나 스스로 외우는 것과 거리가 먼 사람이라고 생각했고, 배우지 않고도 어떤 일이든 잘 해낼 수 있다고 생각했습니다.<br /> 하지만 여러 곳에서 계약직 사원으로 근무하며 생각이 바뀌었습니다. 더 배우고 싶어지게 되었습니다. 꼭 성공한 삶을 살겠노라 다짐했습니다. 나름대로 열심히 꿈을 그리고 채색해 나갔습니다. <br /><br />
+                        하지만 막연했습니다. 고등학교를 떠난 후 배움이란 것은 경험을 통해 스스로 깨닫거나 책을 읽어 통찰력과 시야를 기르는 것뿐이 없었습니다.<br /> 물론 이것들이 저에게 좋은 배움이 되겠지만, 모든 것을 다 경험하거나 모든 책들을 읽을 수는 없는 일이었습니다. 저는 멋진 개발자가 되겠다고 마음먹었지만, 어떻게 하면 멋진 개발자가 될 수 있는지 알지 못했습니다.<br /> 결국 대학에 입학했지만 달라지는 것은 없었습니다. 내 수준은 학교 수업을 따라가기 급급했고, 아무도 저에게 “나만 믿고 따라와라!”라고 말해주지 않았습니다. ‘내가 걷고 있는 길이 올바른 것인가?’, ‘정말 이대로 하면 멋진 인생을 살 수 있을까?’라고 스스로 매일같이 질문하고 있습니다.
+                    </font>
+
+                </div>
+
+        </div>
+    </div>
+
+    <footer class="col-12 col-m-12">
+        <font color="white">
+            <h3>CONTACT</h3>
+        </font>
+        <font color="gray">
+            <p>E-MAIL: nakaldi@gmail.com</p>
+            <p>&copy;2017 Made by Kim Beomhee. All rights reserved.</p>
+            <a href="portfolio1.html">TOP ></a>
+        </font>
+    </footer>
+</body>
+</html>
