@@ -1,0 +1,14 @@
+<!doctype html><!-- basicTable--> 
+2 <html> 
+3  <head> 
+4   <meta charset="utf-8"/> 
+5   <meta name="viewport"content="width=device-width, initial-scale=1"/>  
+6 <style>table, tr, th, td{ 
+7    border:1px solid black;  border-collapse:collapse; 
+8 } 
+9 </style>  
+10   <title>근웅아구라야</title> 
+11  </head> 
+12  <body> 
+13<h6>구라야근웅아</h6>
+27 </body></html> 
